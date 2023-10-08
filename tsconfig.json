@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es5",
+		"sourceMap": true,
+		"lib": [
+			"es2015",
+			"dom"
+		],
+		"baseUrl": "./",
+		// Turns "../../../utils" into "Utils"
+		"paths": {
+			"Utils": [
+				"src/utils"
+			]
+		},
+	},
+	"exclude": [
+		"node_modules"
+	]
+}
