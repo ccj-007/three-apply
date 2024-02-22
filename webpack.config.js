@@ -37,7 +37,7 @@ module.exports = {
 
 	devServer: {
 		static: path.join(__dirname, '/'),
-		port: 8000,
+		port: 8002,
 		host: "0.0.0.0",
 	}
 }
